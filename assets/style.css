@@ -1,0 +1,795 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* ----------------------------------------------- */
+  /* NAVBAR STARTS */
+  /* ----------------------------------------------- */
+  .index-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    z-index: 999;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    background-color: #151515;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    z-index: 999;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    background-color: white;
+  }
+  
+  .header-signin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    z-index: 999;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    background-color: white;
+  }
+  
+  .logo {
+    margin-left: 48px;
+  }
+  
+  .logo-02 {
+    margin-left: 48px;
+  }
+  
+  .logo-02 img {
+    width: 120px;
+  }
+  
+  .logo img {
+    width: 120px;
+  }
+  
+  .nav-links {
+    margin-right: 48px;
+  }
+  
+  .link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0 16px;
+  }
+  
+  .link:hover {
+    color: #fe6a28;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: #fe6a28;
+    text-decoration-thickness: 3px;
+  }
+  
+  .link-active {
+    color: white;
+    font-size: 16px;
+    padding: 0 16px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: #fe6a28;
+    text-decoration-thickness: 3px;
+  }
+  
+  .link-active:hover {
+    color: #fe6a28;
+  }
+  
+  .link-2-active {
+    color: #151515;
+    font-size: 16px;
+    padding: 0 16px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: #fe6a28;
+    text-decoration-thickness: 3px;
+  }
+  
+  .link-2-active:hover {
+    color: #fe6a28;
+  }
+  
+  .link-2 {
+    color: #151515;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0 16px;
+  }
+  
+  .link-2:hover {
+    color: #fe6a28;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: #fe6a28;
+    text-decoration-thickness: 3px;
+  }
+  
+  .link-2:hover::after {
+    width: 100%;
+  }
+  
+  .signin-cta {
+    color: #151515;
+    background-color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 12px 16px;
+    border-radius: 5px;
+    margin-left: 16px;
+  }
+  
+  .signin-cta:hover {
+    background-color: #fe6a28;
+    color: white;
+  }
+  
+  .signin-cta-2 {
+    color: white;
+    background-color: #151515;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 12px 16px;
+    border-radius: 5px;
+    margin-left: 16px;
+  }
+  
+  .signin-cta-2:hover {
+    background-color: #fe6a28;
+  }
+  
+  .back-link {
+    color: #fe6a28;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 48px;
+  }
+  
+  .back-link:hover {
+    color: #151515;
+  }
+  /* ----------------------------------------------- */
+  /* NAVBAR ENDS */
+  /* ----------------------------------------------- */
+  
+  /* ----------------------------------------------- */
+  /* SECTION 1 STARTS */
+  /* ----------------------------------------------- */
+  /* INDEX PAGE STARTS */
+  .index-section-1 {
+    text-align: center;
+    width: 100%;
+    background-color: #151515;
+    padding-top: 100px;
+  }
+  
+  .index-section-1 img {
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 4.5rem;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: "League Gothic", sans-serif;
+  }
+  
+  .paragraph-1 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.25rem;
+  }
+  /* INDEX PAGE ENDS */
+  
+  /* PRICING PAGE STARTS */
+  .section-1 {
+    margin-top: 100px;
+    padding: 0 48px;
+  }
+  
+  .section-content {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin-top: 60px;
+  }
+  
+  .section-content span {
+    font-size: 24px;
+  }
+  
+  .section-content h2 {
+    margin: 0;
+  }
+  
+  .section-content-title h2 {
+    margin: 0;
+  }
+  
+  .section-content-title p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    margin: 0 0 100px 0;
+  }
+  
+  .option {
+    font-family: "Poppins", sans-serif;
+    padding: 32px;
+    border-radius: 10px;
+    border: 1px solid #151515;
+  }
+  
+  .option-title {
+    text-align: center;
+  }
+  
+  .option-title span {
+    display: block;
+    margin: 16px 0;
+  }
+  
+  .title {
+    font-size: 18px;
+  }
+  
+  .price {
+    font-size: 36px;
+    font-weight: 500;
+  }
+  
+  .pricing-options {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+  }
+  
+  .option-1 {
+    background-color: #151515;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    padding: 32px;
+    border-radius: 10px;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    font-size: 16px;
+    list-style: none;
+    padding: 16px 0;
+  }
+  
+  li i {
+    color: #fe6a28;
+    font-size: 24px;
+  }
+  
+  .option-cta-container {
+    display: flex;
+  }
+  
+  .option-1-cta {
+    width: 100%;
+    background-color: white;
+    color: #151515;
+    padding: 12px 0;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .option-cta {
+    width: 100%;
+    background-color: #151515;
+    color: white;
+    padding: 12px 0;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  h2 {
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+  }
+  /* PRICING PAGE ENDS */
+  
+  /* CONTACT PAGE STARTS */
+  .section-1-contact {
+    display: flex;
+    align-items: center;
+    padding: 0 48px;
+    height: 100vh;
+    margin-top: 50px;
+  }
+  
+  .contact-info i {
+    color: #fe6a28;
+  }
+  
+  .contact-info p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    margin: 24px 0;
+  }
+  
+  .form-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .form {
+    padding: 24px;
+    border: 1px solid #151515;
+    border-radius: 10px;
+    margin: auto;
+    width: 75%;
+  }
+  
+  input {
+    display: block;
+    width: 98%;
+    height: 48px;
+    margin: 8px 0 16px 0;
+    font-family: "Poppins", sans-serif;
+    outline-color: #fe6a28;
+  }
+  
+  .form label {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .form textarea {
+    display: block;
+    width: 99%;
+    margin: 8px 0 24px 0;
+    font-family: "Poppins", sans-serif;
+    outline-color: #fe6a28;
+  }
+  /* CONTACT PAGE ENDS */
+  
+  /* SIGNIN PAGE STARTS */
+  .section-1-signin {
+    height: 100vh;
+    padding: 0 48px;
+    display: flex;
+  }
+  
+  .signin-logo {
+    margin-bottom: 50px;
+  }
+  
+  .section-content-wrapper {
+    width: 100%;
+  }
+  
+  .section-content-container {
+    display: flex;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .create-account {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .create-account-link {
+    color: #fe6a28;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .create-account-link:hover {
+    color: #151515;
+  }
+  
+  .forgot-password {
+    margin-bottom: 24px;
+  }
+  
+  .forgot-password-link {
+    color: #fe6a28;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .forgot-password-link:hover {
+    color: #151515;
+  }
+  /* SIGNIN PAGE ENDS */
+  
+  /* ----------------------------------------------- */
+  /* SECTION 1 ENDS */
+  /* ----------------------------------------------- */
+  
+  /* ----------------------------------------------- */
+  /* SECTION 2 STARTS */
+  /* ----------------------------------------------- */
+  .index-section-2 {
+    display: flex;
+    background-color: #151515;
+  }
+  
+  video {
+    width: 75%;
+    margin: 100px auto;
+  }
+  /* ----------------------------------------------- */
+  /* SECTION 2 ENDS */
+  /* ----------------------------------------------- */
+  
+  /* ----------------------------------------------- */
+  /* FOOTER STARTS */
+  /* ----------------------------------------------- */
+  .index-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #151515;
+    height: 100px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    bottom: 0;
+  }
+  
+  .footer-fixed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .social-links-container,
+  .index-social-links-container {
+    margin-left: 48px;
+  }
+  
+  .copyright-container {
+    margin-right: 48px;
+  }
+  
+  .index-social-links-container i {
+    font-size: 1.5rem;
+    padding-right: 24px;
+    color: white;
+  }
+  
+  .social-links-container i {
+    font-size: 1.5rem;
+    padding-right: 24px;
+    color: #151515;
+  }
+  
+  .social-02:hover {
+    color: #fe6a28;
+  }
+  
+  .copyright {
+    font-size: 0.75rem;
+    font-family: "Poppins", sans-serif;
+  }
+  /* ----------------------------------------------- */
+  /* FOOTER ENDS */
+  /* ----------------------------------------------- */
+  /* Desktops and laptops ----------- */
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+  }
+  
+  @media only screen and (max-width: 1080px) {
+    /* CONTACT US PAGE STARTS */
+    .section-1-contact {
+      flex-direction: column;
+      margin-top: 100px;
+      height: 100%;
+    }
+  
+    .section-content-wrapper {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .section-content-title p {
+      margin: 0 0 48px 0;
+    }
+  
+    .form-container {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    /* CONTACT US PAGE ENDS */
+  
+    /* PRICING PAGE STARTS */
+    .pricing-options {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .option-1 {
+      width: 50%;
+      margin-bottom: 48px;
+    }
+  
+    .option {
+      width: 50%;
+      margin-bottom: 48px;
+    }
+    /* PRICING PAGE ENDS */
+  
+    .section-1-signin {
+      margin-top: 100px;
+      flex-direction: column;
+      height: 100%;
+    }
+  
+    .section-content-container {
+      width: 100%;
+    }
+  
+    .section-content-title h2 {
+      font-size: 36px;
+    }
+  
+    /* FOOTER STARTS */
+    .footer-fixed {
+      position: static;
+      z-index: 1;
+      height: 100px;
+      bottom: 0;
+      width: 100%;
+    }
+    /* FOOTER ENDS */
+  }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (max-width: 768px) {
+    .header-signin {
+      position: static;
+    }
+    /* INDEX PAGE STARTS */
+    h1 {
+      font-size: 3rem;
+    }
+  
+    .paragraph-1 {
+      font-size: 1.5rem;
+    }
+  
+    /* INDEX PAGE ENDS */
+  
+    /* PRICING PAGE STARTS */
+    .section-content span {
+      font-size: 18px;
+    }
+  
+    h2 {
+      font-size: 36px;
+      line-height: 1.5;
+    }
+    /* PRICING PAGE ENDS */
+  
+    /* SIGNIN PAGE STARTS */
+    .section-1-signin {
+      flex-direction: column;
+      height: 100%;
+      margin-top: 16px;
+    }
+  
+    .section-content-container {
+      width: 100%;
+      margin-top: 30px;
+    }
+  
+    .form-container {
+      margin-bottom: 30px;
+    }
+    /* SIGNIN PAGE ENDS */
+  }
+  
+  @media only screen and (max-width: 640px) {
+    /* NAVBAR STARTS */
+    .index-header {
+      flex-direction: column;
+      align-items: baseline;
+      height: 248px;
+      padding: 24px 0;
+      z-index: 1;
+      position: static;
+    }
+  
+    .header {
+      flex-direction: column;
+      align-items: baseline;
+      height: 248px;
+      padding: 24px 0;
+      z-index: 1;
+      position: static;
+    }
+  
+    .logo,
+    .logo-02 {
+      margin-left: 24px;
+    }
+  
+    .nav-links {
+      margin: 0 0 0 24px;
+    }
+  
+    .nav-links a {
+      display: block;
+    }
+  
+    .link-active,
+    .link-2-active {
+      padding: 8px 0;
+    }
+  
+    .link,
+    .link-2 {
+      padding: 8px 0;
+    }
+  
+    .signin-cta,
+    .signin-cta-2 {
+      margin: 16px 0 0 0;
+    }
+  
+    .back-link {
+      margin-left: 24px;
+    }
+    /* NAVBAR ENDS */
+  
+    /* INDEX PAGE STARTS */
+    .index-section-1 {
+      padding-top: 50px;
+    }
+    /* INDEX PAGE ENDS */
+  
+    /* PRICING PAGE STARTS */
+    .section-1 {
+      margin-top: 50px;
+      padding: 0 24px;
+    }
+  
+    .section-content {
+      margin-top: 30px;
+    }
+  
+    h2 {
+      font-size: 32px;
+    }
+  
+    .option-1 {
+      width: 75%;
+    }
+  
+    .option {
+      width: 75%;
+    }
+    /* PRICING PAGE ENDS */
+  
+    /* CONTACT PAGE STARTS */
+    .section-1-contact {
+      margin-top: 30px;
+    }
+  
+    .section-1-contact {
+      padding: 0 24px;
+    }
+    /* CONTACT PAGE ENDS */
+  
+    /* SIGNIN PAGE STARTS */
+    .section-1-signin {
+      padding: 0 24px;
+    }
+  
+    .form {
+      width: 100%;
+    }
+    /* SIGNIN PAGE ENDS */
+  }
+  
+  @media only screen and (max-width: 480px) {
+    /* NAVBAR STARTS */
+    .logo {
+      margin-left: 24px;
+    }
+  
+    .nav-links {
+      margin: 0 24px;
+    }
+    /* NAVBAR ENDS */
+  
+    /* INDEX PAGE STARTS */
+    h1 {
+      font-size: 36px;
+    }
+  
+    .paragraph-1 {
+      font-size: 18px;
+    }
+  
+    .index-section-1 {
+      padding-top: 50px;
+    }
+    /* INDEX PAGE ENDS */
+  
+    /* SIGNIN PAGE STARTS */
+    .section-1-signin {
+      margin-bottom: 48px;
+    }
+    /* SIGNIN PAGE ENDS */
+  
+    /* PRICING PAGE STARTS */
+    h2 {
+      font-size: 24px;
+    }
+    /* PRICING PAGE ENDS */
+  
+    /* FOOTER STARTS */
+    .index-footer,
+    .footer,
+    .footer-fixed {
+      flex-direction: column;
+      height: 100px;
+    }
+  
+    .index-social-links-container,
+    .social-links-container {
+      margin: 0;
+    }
+  
+    .copyright-container {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    /* FOOTER ENDS */
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen and (max-width: 320px) {
+    /* PRICING PAGE STARTS */
+    h2 {
+      font-size: 20px;
+    }
+    /* PRICING PAGE ENDS */
+  }
+  
